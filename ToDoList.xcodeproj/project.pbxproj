@@ -15,6 +15,7 @@
 		4E00277E2BF1B43A0016572C /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00277D2BF1B43A0016572C /* ToDoListUITests.swift */; };
 		4E0027802BF1B43A0016572C /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00277F2BF1B43A0016572C /* ToDoListUITestsLaunchTests.swift */; };
 		4E00278D2BF1B6340016572C /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00278C2BF1B6340016572C /* NewToDoView.swift */; };
+		4E00278F2BF1BBA50016572C /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00278E2BF1BBA50016572C /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4E00277D2BF1B43A0016572C /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		4E00277F2BF1B43A0016572C /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4E00278C2BF1B6340016572C /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		4E00278E2BF1BBA50016572C /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4E0027612BF1B4380016572C /* ToDoListApp.swift */,
 				4E0027632BF1B4380016572C /* ContentView.swift */,
+				4E00278E2BF1BBA50016572C /* ToDoItem.swift */,
 				4E00278C2BF1B6340016572C /* NewToDoView.swift */,
 				4E0027652BF1B43A0016572C /* Assets.xcassets */,
 				4E0027672BF1B43A0016572C /* ToDoList.entitlements */,
@@ -264,6 +267,7 @@
 			files = (
 				4E00278D2BF1B6340016572C /* NewToDoView.swift in Sources */,
 				4E0027642BF1B4380016572C /* ContentView.swift in Sources */,
+				4E00278F2BF1BBA50016572C /* ToDoItem.swift in Sources */,
 				4E0027622BF1B4380016572C /* ToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
